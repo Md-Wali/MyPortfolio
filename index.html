@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="styleSheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +19,10 @@
             <div class="right">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,13 +42,154 @@
             </div>
         </section>
     </main>
+<!-- ----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt_col1">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_640.jpg">
+                </div>
+                <div class="abt_col2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>Passionate Web Developer and Data Scientist |Enabling the realization of concepts in the digital realm | Facilitating the convergence of data and pioneering solutions.</p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Proficient in Python programming language, with extensive<br> experience in developing various types of applications. <br>Experienced in data analysis and manipulation using libraries<br> like Pandas and NumPy.Proficient in JavaScript programming <br>language, with a focus on both front-end and back-end development.<br> Capable of integrating third-party APIs and libraries to enhance <br>application functionality and user experience.</li>
+                            <li><span>Data Analysis</span><br>Skilled in data visualization with tools like Matplotlib and Seaborn.<br> Experience with data manipulation libraries such as Pandas and NumPy.</li>
+                            <li><span>Machine Learning</span><br>Implemented various machine learning algorithms for classification<br> and regression tasks using scikit-learn. Familiarity with neural networks<br> and TensorFlow.</li>
+                            <li><span>Soft skills</span><br>Strong analytical skills with a proven track record of solving complex <br>technical challenges.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>Python</span><br>Proficient in Python programming language with over 1.5 years<br> of experience in data science and analytics applications. <br>Utilized Python for data analysis and manipulation, extracting <br>insights from large datasets using Pandas and NumPy.</li>
+                            <li><span>JavaScript</span><br>Proficient in JavaScript programming language with over 1 <br>years of experience in full-stack development. Integrated <br>third-party APIs and libraries to extend application functionality <br>and provide additional features. Collaborated closely with UI/UX <br>designers and backend developers to deliver cohesive solutions <br>that meet project requirements and objectives.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science in Computer Science</span><br>SunRise University Alwar</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub_title">My Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web developer</h2>
+                    <p>A web developer is responsible for building and maintaining websites, focusing on both the front-end and back-end aspects of development. They use languages like HTML, CSS, and JavaScript to create the visual elements and user interface of websites, ensuring responsiveness and compatibility across different devices and browsers.</p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Data analyst</h2>
+                    <p>A data analyst specializes in gathering, cleaning, and analyzing data to extract meaningful insights that inform business decisions. They utilize tools like SQL, Python, for data manipulation, alongside data visualization techniques and statistical methods to identify trends and patterns. Strong problem-solving skills and the ability to communicate findings effectively are essential in this role.</p>
+                    <a href="https://en.wikipedia.org/wiki/Data_analysis">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-atom"></i>
+                    <h2>Data science</h2>
+                    <p>A data scientist leverages advanced analytics and machine learning techniques to derive insights and build predictive models from large datasets. Proficiency in programming languages like Python or R, along with expertise in machine learning algorithms and big data technologies, enables them to tackle complex problems and provide actionable recommendations. Strong problem-solving and communication skills are also crucial for collaborating with cross-functional teams and translating technical findings into business insights.</p>
+                    <a href="https://en.wikipedia.org/wiki/Data_science">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------my work-------------- -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub_title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    
+                    <img src="https://repository-images.githubusercontent.com/265904235/46eef600-9bab-11ea-87d9-ff5e73c39b97">
+                    
+                    <div class="layer">
+                        <h2>web design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ipsum. Illo quae blanditiis rerum possimus eligendi perferendis voluptatum quisquam nesciunt facilis quo, nihil animi numquam fugit doloremque natus minus. Perspiciatis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18131.jpg">
+                    
+                    <div class="layer">
+                        <h2>web design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ipsum. Illo quae blanditiis rerum possimus eligendi perferendis voluptatum quisquam nesciunt facilis quo, nihil animi numquam fugit doloremque natus minus. Perspiciatis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="https://www.appstudio.ca/blog/wp-content/uploads/2020/05/Data-Science-and-Web-Development-Together-Can-be-Most-Useful.jpg">
+                    
+                    <div class="layer">
+                        <h2>web design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ipsum. Illo quae blanditiis rerum possimus eligendi perferendis voluptatum quisquam nesciunt facilis quo, nihil animi numquam fugit doloremque natus minus. Perspiciatis!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Md-Wali" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------contact--------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mdwali77221@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>1234567890</p>
+                    <div class="social_icons">
+                        <a href="https://www.linkedin.com/in/md-wali/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/mdwali77221"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/_wali_05_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact_right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your valuable message."></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAAZMMIa5tFDJydt1gfru_uHrtbPA27VjRPAEZJepl9wKdytvfykwm89OanNzfMdmvYQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Data Scientist'],
-          typeSpeed: 50,
-        });
+        strings: ['Web Developer','Data Analyst','Data Scientist.'],
+        typeSpeed: 50,});
       </script>
 </body>
 </html>
